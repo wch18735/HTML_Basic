@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- charset -->
         <meta charset="UTF-8">
+        
+        <!-- meta data -->
         <meta name="description" content="This is an practical website">
         <meta name="author" content="wch18735">
         <meta name="keywords" content="HTML, Tutorial, GitHub">
-        <meta name="viewport" conten="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- title of website -->
         <title> Basic Website </title>
+
+        <!-- stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- script -->
+        <!--
+            When import .js file, unlike importing .css file, we need to use script tag and declare type="text/javascript" always!!
+        -->
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
+
     <body>
-        <p>completed 2021-01-25</p>
+        <header>    <!-- Start header container for Logo, Menubar -->
+            <div class="header-container">
+                <div class="topnav">
+                    <h1 style="color:white; margin: 10px;">HTML Note</h1>
+                    <div id="sidebar">
+                        <a href="#">News</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                        <a href="#">Info</a>
+                    </div>
+                </div>
+            </div>
+        </header>   <!-- End header container for Logo, Menubar -->
+        <main>
+            <section class="card-section"> <!-- Start display card section -->
+                <div class="card">
+                    <img src="img/Avicii.jpg" alt="HTML" style="width:100%">
+                    <div class="card-container">
+                        <h4><p>HTML Section</p></h4>
+                        <p>short description</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Avicii.jpg" alt="HTML" style="width:100%">
+                    <div class="card-container">
+                        <h4><p>HTML Section</p></h4>
+                        <p>short description</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Avicii.jpg" alt="HTML" style="width:100%">
+                    <div class="card-container">
+                        <h4><p>HTML Section</p></h4>
+                        <p>short description</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Avicii.jpg" alt="HTML" style="width:100%">
+                    <div class="card-container">
+                        <h4><p>HTML Section</p></h4>
+                        <p>short description</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Avicii.jpg" alt="HTML" style="width:100%">
+                    <div class="card-container">
+                        <h4><p>HTML Section</p></h4>
+                        <p>short description</p>
+                    </div>
+                </div>
+            </section> <!-- End display card section -->
+        </main>
+        <footer>
+            <p>completed 2021-04-03</p>
+        </footer>
     </body>
 </html>
