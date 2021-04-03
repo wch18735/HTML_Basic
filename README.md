@@ -383,3 +383,7 @@ Most commonly used meta tags to be searched for engine or define html files.
     </body>
 </html>
 ```
+
+# TODO
+- [ ] Apply Grid layout
+- [ ] Change Thumbnail
