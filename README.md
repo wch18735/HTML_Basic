@@ -195,7 +195,7 @@ Inside image tag, we actually have to give it a couple of pieces of information.
 <br>
 
 ## lists
-![list image](list_img.PNG)
+![list image](./img/list_img.PNG)
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -385,5 +385,6 @@ Most commonly used meta tags to be searched for engine or define html files.
 ```
 
 # TODO
-- [ ] Apply Grid layout
-- [ ] Change Thumbnail
+- [v] Apply Grid layout
+- [v] Change Thumbnail
+- [ ] Grid example
