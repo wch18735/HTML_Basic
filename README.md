@@ -387,4 +387,4 @@ Most commonly used meta tags to be searched for engine or define html files.
 # TODO
 - [v] Apply Grid layout
 - [v] Change Thumbnail
-- [ ] Grid example
+- [v] Grid example
